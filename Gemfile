@@ -8,6 +8,7 @@ gem 'coffee-rails', '4.2.1'
 gem 'jquery-rails', '4.1.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
+gem 'bootstrap-sass', '3.3.6'
 
 group :development, :test do
   gem 'sqlite3', '1.3.11'
@@ -22,6 +23,7 @@ group :development do
 end
 
 group :test do
+  gem 'minitest', '~> 5.10', '!= 5.10.2'
   gem 'rails-controller-testing', '0.1.1'
   gem 'minitest-reporters',       '1.1.9'
   gem 'guard',                    '2.13.0'
